@@ -1,0 +1,138 @@
+body{
+    display: contents;
+    background-size: auto;
+    background-color: rgb(53, 53, 53);
+}
+
+.color{
+    background-color: rgb(53, 53, 53);
+    border: solid 7px pink;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navBar{
+    float: right;
+    margin-top: 20px;
+    width: 202.703px;    
+}
+
+.mailText{
+    font-size: 13px;
+    color: black;
+    
+    font-family: arial,sans-serif;
+    font-weight: 700;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+.imageText{
+    font-size: 13px;
+    color: black;
+    
+    font-family: arial,sans-serif;
+    font-weight: 700;
+}
+
+
+.logo{
+    width: 272px;
+    height: 92px;
+    margin-bottom: 38px;
+    margin-top: 200px;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainThings{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.glass{
+    width: 16px;
+    height: 17px;
+    position: relative;
+    left: 35px;
+    margin-top: 3px;
+    top: 3px;
+}
+
+.input{
+    width: 465px;
+    height: 44px;
+    border-radius: 25px;
+    padding-inline-end: 44px;
+    padding-inline-start: 40px;
+    background-color: coral;
+    border: none;
+}
+
+.mike{
+    width: 12px;
+    height: 17px;
+    position: relative;
+    right: 35px;
+    top: 3px;
+}
+
+.hotKey{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.naver{
+    margin-right: 10px;
+}
+
+.daum{
+    margin-right: 10px;
+}
+
+.kakao{
+    margin-right: 10px;
+}
+
+.yahoo{
+    margin-right: 10px;
+}
+
+.shortcut{
+    margin-right: 10px;
+}
+
+.btmBtn{
+    position: relative;
+    bottom: 0px;
+    float: right;
+    color: rgb(60, 64, 67);
+}
+
+.btmText{
+    width: 150px;
+    height: 32px;
+    border-radius: 15px;
+    background-color: darkgreen;
+    font-family: Roboto, system-ui,Apple SD Gothic Neo,AppleGothic,sans-serif;
+    font-size: 81.25%;
+    font-weight: 500;
+    color: rgb(138, 180, 248);
+    text-align: center;
+    padding-top: 3px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+}
