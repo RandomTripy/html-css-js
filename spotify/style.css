@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.navBar{
+    
+    position: relative;
+    background-color: black;
+    width: 1030px;
+    height: 75px;
+
+}
+
+.loGo{
+    height: 41.891px;
+    width: 132px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.navButton{
+    display: flex;
+    justify-content: row;
+    position: relative;
+    float: right;
+    font-weight: 600;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+.navOn{
+    color: white;
+    font-size: 16px;
+}
+
+.navTw{
+    color: white;
+    font-size: 16px;
+}
+
+.navTh{
+    color: white;
+    font-size: 16px;
+}
+
+.navFo{
+    color: white;
+    font-size: 16px;
+}
+
+.block{
+    color: white;
+    width: 1px;
+    height: 16px;
+}
+
+.navFi{
+    color: white;
+    font-size: 16px;
+}
+
+.navSe{
+    color: white;
+    font-size: 16px;
+}
+
+.btnAlign{
+    padding: 30px 17px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.middleBg{
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-size: 153%;
+    background-position: right 40% center;
+    background-color: rgb(41, 65, 171);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.centerLetter{
+    width: 754px;
+    font-size: 104px;
+    line-height: 104px;
+    padding-bottom: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    color: #1ed760;
+    letter-spacing: -0.04em !important;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.underLetter{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: #1ed760;
+    padding: 0 0 40px;
+    width: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    letter-spacing: 0px;
+
+}
