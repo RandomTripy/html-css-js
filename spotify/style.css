@@ -87,13 +87,14 @@ a:hover{
     background-color: rgb(41, 65, 171);
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100vh;
+    width: 130vh;
     margin: 0;
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-top: 0;
     
 }
 
@@ -123,5 +124,57 @@ a:hover{
     margin-bottom: 0px;
     font-weight: 400;
     letter-spacing: 0px;
+}
 
+.bottomBtn-div{
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+
+.btmArea{
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btmLogo{
+    height: 41.891px;
+    width: 132px;
+    position: relative;
+    left: 50px;
+    top: 80px;
+}
+
+.firstAlign{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.secondAlign{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdAlign{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
 }
